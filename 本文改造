@@ -1,0 +1,88 @@
+/* <system section="theme" selected="afternoon"> */
+@import "/css/theme/afternoon/afternoon.css";
+/* </system> */
+
+/*画像に影つけ*/
+
+img {
+    border : 1px solid #DADADA ;
+    border-bottom : 1px solid #757575 ;
+    box-shadow : 0 2px 4px rgba(0, 0, 0, 0.2) ;
+}
+
+/*フォント*/
+
+body {
+    font-family: "メイリオ", Meiryo;
+}
+
+/* 目次のタイトル */
+ul.table-of-contents:before {
+ content: "目次";
+ font-size: 100%;
+ font-weight: bold;
+ color: black;
+ font-family: "メイリオ", Meiryo, san-serif;
+}
+
+/* 目次の背景と大見出し */
+ul.table-of-contents {
+ background: #d6eaff;
+ max-width: 720px;
+ margin: 0px 0px 40px 0px;
+ padding: 18px 18px;
+ list-style-type: decimal;
+ list-style-position: inside;
+ font-size: 15px;
+ line-height: 2.1;
+ font-weight: bold;
+}
+
+/*大見出し*/
+.entry-content h3{
+color: white; 
+background: #99CCFF;
+border-radius: 5px; 
+padding: 10px 10px;
+}
+
+/*中見出し*/
+.entry-content h4{
+color: #3f3f3f;
+padding: 5px 5px; 
+border-left: 7px solid #99CCFF;
+border-radius: 5px;
+border-bottom: 2px solid #99CCFF;
+
+}
+
+/*カテゴリー*/
+
+.hatena-module {
+    clear: both;
+    overflow: hidden;
+}
+
+.hatena-module-category .hatena-module-body ul.hatena-urllist li {
+    float: left;
+}
+
+
+
+/* category css */
+.hatena-module-category .hatena-module-body ul.hatena-urllist li {
+    float: left;
+    list-style-type: none;
+    margin: 0 4px 4px;
+    padding: 5px;
+    background-color: #D7EEFF;
+    border-color: #000000;
+    border-color: #ff0000;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px
+ 
+}
+
+.hatena-module-category .hatena-module-body ul.hatena-urllist li a{
+    color: #555555;
+}
